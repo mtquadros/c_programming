@@ -1,2 +1,6 @@
-# c_programming
-C programming
+#  Data Structures exercises
+
+## ☕ Exercise 1 - Ordered Linked List
+
+## 💻 Pré-requisitos
+
