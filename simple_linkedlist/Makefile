@@ -1,7 +1,7 @@
 #TARGETS COMMANDS
 
 build:
-	g++ main.c linkedlist.c -o main
+	gcc main.c linkedlist.c -o main
 
 execute:
 	./main
