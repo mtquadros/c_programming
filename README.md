@@ -2,8 +2,9 @@
 
 ## ☕ Exercise 1 - Ordered Simple Linked List
 
-## 💻 Building tools
+## 💻 Building instructions
 
-### Makefile
-
+### Execute on the terminal: 
+1. cd ./simple_linkedlist/
+2. make
 
