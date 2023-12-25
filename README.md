@@ -1,6 +1,9 @@
-#  Data Structures exercises
+#  C Programming
 
-## ☕ Exercise 1 - Ordered Linked List
+## ☕ Exercise 1 - Ordered Simple Linked List
 
-## 💻 Pré-requisitos
+## 💻 Building tools
+
+### Makefile
+
 
