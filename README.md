@@ -1,6 +1,6 @@
 #  C Programming
 
-## ☕ Exercise 1 - Ordered Simple Linked List
+## ☕ Struct: Ordered Simple Linked List
 
 ## 💻 Building instructions
 
