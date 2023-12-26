@@ -31,27 +31,6 @@ slnode* sl_find(slnode * root, int value) {
 }
 
 void sl_remove(slnode** root, int value) {
-<<<<<<< HEAD:linkedlist.cpp
-	slnode* prev = NULL;
-	slnode* node = *root;
-
-	while (*root) {
-		if ((*root)->num == value)
-			break;
-
-		root = &(*root)->next;
-	}
-
-
-
-
-	if (prev == NULL) {
-		*root = node->next;
-	}
-/*
-#ifdef _DEBUG_ME_
-	assert(slfind(root, tmp->num));
-=======
 
 	slnode* tmp = NULL;
 
@@ -67,18 +46,11 @@ void sl_remove(slnode** root, int value) {
 
 #ifdef _DEBUG_ME_
 	assert(slfind(root, tmp->num) == NULL);
->>>>>>> Fix#01:linkedlist.c
 #endif
-*/
 }
 
-void sl_insert(slnode** root, int value) {
+void sl_insert(slnode** root, int value){
 
-<<<<<<< HEAD:linkedlist.cpp
-	while (*root) {
-		if ((*root)->num > value)
-			break;
-=======
     while (*root){
         if ((*root)->num > value)
             break;
@@ -89,27 +61,16 @@ void sl_insert(slnode** root, int value) {
     tmp->num = value;
 	tmp->next = *root;
 	*root = tmp;
->>>>>>> Fix#01:linkedlist.c
 
-		root = &(*root)->next;
-	}
 
 #ifdef _DEBUG_ME_
-	assert(*root != NULL ? (*root)->num > value : *root == NULL);
+    assert(prev->next == NULL || prev->next->num >= value);
+	assert(root->num <= root->next->num);
 #endif // _DEBUG_ME_
 
-	slnode *tmp = (slnode *) malloc(sizeof(slnode));
-	tmp->num = value;
-	tmp->next = *root;
-	*root = tmp;
 }
 
-<<<<<<< HEAD:linkedlist.cpp
-
-void free_slist(slnode** root) {
-=======
 void free_slist(slnode* root) {
->>>>>>> Fix#01:linkedlist.c
 	slnode* next = NULL;
 
 	while(root){
@@ -117,10 +78,6 @@ void free_slist(slnode* root) {
 		free(root);
 		root = next;
 	}
-#ifdef _DEBUG_ME_
-	assert(*root == NULL);
-#endif // _DEBUG_ME_
-
 }
 
 void print_slist(slnode* root)
