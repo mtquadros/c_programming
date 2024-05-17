@@ -10,7 +10,7 @@
     2. GCC 11.4 
 
 ### Execute on the terminal: 
-1. In the "c_programing" folder type next commands of the list:
+1. In the "c_programing" folder type the commands bellow:
 2. cd cmake-build-debug/
 3. cmake .. && make
 
