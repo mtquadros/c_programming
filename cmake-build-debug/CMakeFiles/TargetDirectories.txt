@@ -1,0 +1,6 @@
+/home/dev/c_programming/cmake-build-debug/CMakeFiles/slist.out.dir
+/home/dev/c_programming/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dev/c_programming/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/dev/c_programming/cmake-build-debug/datastructures/CMakeFiles/slink_list.dir
+/home/dev/c_programming/cmake-build-debug/datastructures/CMakeFiles/edit_cache.dir
+/home/dev/c_programming/cmake-build-debug/datastructures/CMakeFiles/rebuild_cache.dir

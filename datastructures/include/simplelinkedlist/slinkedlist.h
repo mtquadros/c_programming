@@ -11,7 +11,7 @@ typedef struct slnode {
 
 // simple linked list functions
 // return the root of a new simple linked list
-slnode * init_slist(int num);
+void init_slist(slnode** root);
 
 // returns the first node equals to value if it exists otherwise returns null;
 slnode * sl_find(slnode* root, int value);

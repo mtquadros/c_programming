@@ -1,0 +1,3 @@
+/home/dev/c_programming/simple_linkedlist/cmake-build-debug/CMakeFiles/SimpleLinkedList.dir
+/home/dev/c_programming/simple_linkedlist/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/dev/c_programming/simple_linkedlist/cmake-build-debug/CMakeFiles/rebuild_cache.dir

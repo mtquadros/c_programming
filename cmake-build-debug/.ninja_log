@@ -1,0 +1,6 @@
+# ninja log v5
+1	16	1715929764311259322	datastructures/CMakeFiles/slink_list.dir/lib/slinkedlist.c.o	56e641b3131434b5
+16	20	1715929764315259377	datastructures/libslink_list.a	9bee0499c93cbeb9
+20	31	1715929764327259544	slist.out	1d5de278dfb38171
+0	2	0	clean	5ee4b4b9eaf3483b
+0	12	1715929372336223938	CMakeFiles/slist.out.dir/main.c.o	b6168ada363adda1
