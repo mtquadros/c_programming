@@ -13,4 +13,5 @@
 1. In the "c_programing" folder type the commands bellow:
 2. cd cmake-build-debug/
 3. cmake .. && make
+4. ./slist.out
 
