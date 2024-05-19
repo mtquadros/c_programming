@@ -14,7 +14,7 @@ int main()
 	init_slist(&root);
 
 	print_slist(root);
-	printf("\n+++++++++++++++++++++++++++++\n");
+	printf("+++++++++++++++++++++++++++++\n");
 
 	sl_insert(&root,20);
 
@@ -67,7 +67,7 @@ int main()
 		if (found) {
 			sl_remove(&root, found->num);
 		}
-	printf("+++++++++++++++++++++++++++++\n");
+	printf("\n+++++++++++++++++++++++++++++\n");
 		print_slist(root);
 	}
 

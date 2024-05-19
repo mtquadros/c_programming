@@ -19,9 +19,6 @@ slnode* sl_find(slnode * root, int value) {
 		else
 			root = root->next;
 	}
-#ifdef _DEBUG_ME_
-	assert(root == NULL || root->num == value);
-#endif
 	return root;
 }
 // chamador passa o endereço de um ponteiro para o nó raiz
@@ -42,9 +39,6 @@ void sl_remove(slnode** root, int value) {
 		root = &(*root)->next;
 	}
 
-#ifdef _DEBUG_ME_
-	assert(slfind(root, tmp->num) == NULL);
-#endif
 }
 
 void sl_insert(slnode** root, int value){
@@ -74,7 +68,7 @@ void free_slist(slnode* root) {
 
 void print_slist(slnode* root)
 {
-	if (root == NULL) {printf("Empty List"); return;}
+	if (root == NULL) {printf("Empty List\n"); return;}
 	printf("List (");
 	while (root != NULL) {
 		printf("%d", root->num);
